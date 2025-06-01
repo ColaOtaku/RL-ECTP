@@ -21,7 +21,7 @@ code/
 Data references are https://www.kaggle.com/datasets/liuxu77/largest and https://outreach.didichuxing.com/research/opendata/ from papers ‘LargeST: A Benchmark Dataset for Large-Scale Traffic Forecasting’ and ‘An Effective Joint Prediction Model for Travel Demands and Traffic Flows’. 
 
 1. For CA, use data/ca/process_ca_his.py to get ca_his_2019.h5 and use data/ca/generate_data_for_training_ca.py to get the processed CA data under data/ca/2019/.
-2. 2. For CD, use data_analytic1.ipynb and data_analytic2.ipynb to get data/chengdu/raw/cnt_300.npy and the adj matrix, then use data/ca/generate_data_for_training_didi.py to get the processed CD data under data/chengdu/2016/.
+2. For CD, use data_analytic1.ipynb and data_analytic2.ipynb to get data/chengdu/raw/cnt_300.npy and the adj matrix, then use data/ca/generate_data_for_training_didi.py to get the processed CD data under data/chengdu/2016/.
 
 table3
 
