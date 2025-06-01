@@ -18,7 +18,7 @@ code/
 ```
 
 ## 2.Data
-  We use CA and CD as our experiment datasets. Data references of two datasets are https://www.kaggle.com/datasets/liuxu77/largest and https://outreach.didichuxing.com/research/opendata/ from papers 1. LargeST: A Benchmark Dataset for Large-Scale Traffic Forecasting and 2. An Effective Joint Prediction Model for Travel Demands and Traffic Flows. 
+  We use CA and CD as our experiment datasets. References are https://www.kaggle.com/datasets/liuxu77/largest and https://outreach.didichuxing.com/research/opendata/ from papers 1. LargeST: A Benchmark Dataset for Large-Scale Traffic Forecasting and 2. An Effective Joint Prediction Model for Travel Demands and Traffic Flows. 
 
 1. For CA, use `data/ca/process_ca_his.py` to get `ca_his_2019.h5` and use `data/ca/generate_data_for_training_ca.py` to get the processed CA data under `data/ca/2019/`.
 2. For CD, use `data_analytic1.ipynb` and `data_analytic2.ipynb` to get `data/chengdu/raw/cnt_300.npy` and the adj matrix, then use `data/ca/generate_data_for_training_didi.py` to get the processed CD data under `data/chengdu/2016/`.
