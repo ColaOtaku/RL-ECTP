@@ -25,5 +25,5 @@ table3
 ## Experiment
 Model training and evaluation can be done through scripts at experiments/rl_ectp/run.sh, and we provide the model weights in experiments/rl_ectp/CA/ and experiments/rl_ectp/chengdu/ to reproduce the result.
 
-table 4
+table 4 
 table 5
