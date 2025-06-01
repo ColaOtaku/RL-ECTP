@@ -19,7 +19,10 @@ code/
 └── LICENSE
 ```
 
-## 2.Data
+## 2.Requirements
+Versions of python==3.10, pytorch==2.3.1, numpy==1.24.4, pandas==2.0.3, metis==0.2a5
+
+## 3.Data
   We use CA and CD as our experiment datasets. References are https://www.kaggle.com/datasets/liuxu77/largest and https://outreach.didichuxing.com/research/opendata/ from papers 1. LargeST: A Benchmark Dataset for Large-Scale Traffic Forecasting and 2. An Effective Joint Prediction Model for Travel Demands and Traffic Flows. 
 
 1. For CA, use `data/ca/process_ca_his.py` to get `ca_his_2019.h5` and use `data/ca/generate_data_for_training_ca.py` to get the processed CA data under `data/ca/2019/`.
@@ -29,7 +32,7 @@ code/
   <img src="https://github.com/ColaOtaku/RL-ECTP/blob/main/images/table3.jpg" alt="data">
 </p>
 
-## 3.Experiment
+## 4.Experiment
 Model training and evaluation can be done through scripts at `experiments/rl_ectp/run.sh`, and we also provide the model weights in `experiments/rl_ectp/CA/` and `experiments/rl_ectp/chengdu/` to reproduce the result.
 <p align="center">
   <img src="https://github.com/ColaOtaku/RL-ECTP/blob/main/images/table4.jpg" alt="result1">
@@ -39,5 +42,5 @@ Model training and evaluation can be done through scripts at `experiments/rl_ect
   <img src="https://github.com/ColaOtaku/RL-ECTP/blob/main/images/table5.jpg" alt="result2">
 </p>
 
-## 4.Acknowledgments
+## 5.Acknowledgments
 We gratefully acknowledge the contribution of [LargeST](https://github.com/liuxu77/LargeST), whose benchmark code was used as a reference.
