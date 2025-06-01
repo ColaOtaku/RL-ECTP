@@ -8,6 +8,8 @@ code/
 │ ├── ca/                  # data pre-process code and data storage for CA
 │ └── chengdu/             # data pre-process code and data storage for CD
 ├── experiments/rl_ectp/   # main script to run the experiments
+│ ├── CA/                  # model weights for evaluation(CA)
+│ └── chengdu/             # model weights for evaluation(CD)
 ├── src/      
 │ ├── base/                # base classes for engines and models
 │ ├── engines/             # The script for training and evaluation
@@ -27,7 +29,7 @@ code/
   <img src="https://github.com/ColaOtaku/RL-ECTP/blob/main/images/table3.jpg" alt="data">
 </p>
 
-## Experiment
+## 3.Experiment
 Model training and evaluation can be done through scripts at `experiments/rl_ectp/run.sh`, and we also provide the model weights in `experiments/rl_ectp/CA/` and `experiments/rl_ectp/chengdu/` to reproduce the result.
 <p align="center">
   <img src="https://github.com/ColaOtaku/RL-ECTP/blob/main/images/table4.jpg" alt="result1">
@@ -37,5 +39,5 @@ Model training and evaluation can be done through scripts at `experiments/rl_ect
   <img src="https://github.com/ColaOtaku/RL-ECTP/blob/main/images/table5.jpg" alt="result2">
 </p>
 
-## Acknowledgments
-We gratefully acknowledge the contribution of [LargeST](https://github.com/liuxu77/LargeST), whose benchmark code was used as a reference and played an important role in our experimental setup.
+## 4.Acknowledgments
+We gratefully acknowledge the contribution of [LargeST](https://github.com/liuxu77/LargeST), whose benchmark code was used as a reference.
