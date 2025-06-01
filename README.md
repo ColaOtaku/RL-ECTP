@@ -23,7 +23,7 @@ References are https://www.kaggle.com/datasets/liuxu77/largest and https://outre
 1. For CA, use data/ca/process_ca_his.py to get ca_his_2019.h5 and use data/ca/generate_data_for_training_ca.py to get the processed CA data under data/ca/2019/.
 2. For CD, use data_analytic1.ipynb and data_analytic2.ipynb to get data/chengdu/raw/cnt_300.npy and the adj matrix, then use data/ca/generate_data_for_training_didi.py to get the processed CD data under data/chengdu/2016/.
 
-![data](https://github.com/ColaOtaku/RL-ECTP/main/images/table3.png)
+![data](https://github.com/ColaOtaku/RL-ECTP/main/images/table3.jpg)
 
 ## Experiment
 Model training and evaluation can be done through scripts at experiments/rl_ectp/run.sh, and we provide the model weights in experiments/rl_ectp/CA/ and experiments/rl_ectp/chengdu/ to reproduce the result.
